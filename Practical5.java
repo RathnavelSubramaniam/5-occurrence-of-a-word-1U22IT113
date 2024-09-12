@@ -5,7 +5,7 @@ public class Practical5
 {
 	public static void main(String[] args)
 	{
-		String inputString = "HELLO THERE";
+		String inputString = " ";
 		HashMap<Character, Integer>charCountMap = countCharacters(inputString);
 		printCharacterCount(charCountMap);
 	}
