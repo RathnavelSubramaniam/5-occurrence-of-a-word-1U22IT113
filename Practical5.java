@@ -1,11 +1,11 @@
 import java.util.HashMap;
 
-public class Practical5
+class Practical5
 
 {
 	public static void main(String[] args)
 	{
-		String inputString = " ";
+		String inputString = "HELLO THERE";
 		HashMap<Character, Integer>charCountMap = countCharacters(inputString);
 		printCharacterCount(charCountMap);
 	}
